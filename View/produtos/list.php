@@ -1,4 +1,4 @@
-<script>
+﻿<script>
     function apagar(id){
         if (window.confirm("Deseja realmente excluir?")){
             var url = 'index.php?Controller=PRODUTO&Action=delete&id='+id;
@@ -11,7 +11,7 @@
         <td>ID</td>
         <td>Nome</td>
         <td>Marca</td>
-        <td>Preço</td>
+        <td>Preço Unitário</td>
         <td>Apagar</td>
         <td>Atualizar</td>
     </tr>
